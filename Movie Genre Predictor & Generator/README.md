@@ -4,20 +4,20 @@ This project focuses on classifying **movie genres** using machine learning base
 
 ## Project Structure
 
-├── GenreClassifier_EDA.ipynb # Data conversion, cleaning, and EDA
-├── GenreClassifier.ipynb # ML training with TF-IDF + SVM, Logistic Regression, Naive Bayes
-├── GenreGenerator.ipynb # Movie title and plot generation using LLaMA 3.2
+├── GenreClassifier_EDA.ipynb           # Data conversion, cleaning, and EDA
+├── GenreClassifier.ipynb               # ML training with TF-IDF + SVM, Logistic Regression, Naive Bayes
+├── GenreGenerator.ipynb                # Movie title and plot generation using LLaMA 3.2
 ├── Datasets/
-│ ├── train_data.txt
-│ ├── test_data.txt
-│ ├── test_data_solution.txt
-│ ├── train_data.csv
-│ ├── test_data.csv
-│ └── test_data_solution.csv
+│   ├── train_data.txt
+│   ├── test_data.txt
+│   ├── test_data_solution.txt
+│   ├── train_data.csv
+│   ├── test_data.csv
+│   └── test_data_solution.csv
 ├── models/
-│ ├── svm_genre_prediction_model.pkl
-│ ├── tfidf_vectorizer.pkl
-│ └── label_encoder.pkl
+│   ├── svm_genre_prediction_model.pkl
+│   ├── tfidf_vectorizer.pkl
+│   └── label_encoder.pkl
 
 ###  `GenreClassifier_EDA.ipynb`
 - Converts raw `.txt` data to `.csv`.
