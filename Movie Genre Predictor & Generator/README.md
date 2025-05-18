@@ -3,7 +3,7 @@
 This project focuses on classifying **movie genres** using machine learning based on **titles and descriptions**. It also incorporates Generative AI to create synthetic movie ideas, showcasing how generative models can complement traditional ML pipelines.
 
 ## Project Structure
-
+```
 ├── GenreClassifier_EDA.ipynb           # Data conversion, cleaning, and EDA
 ├── GenreClassifier.ipynb               # ML training with TF-IDF + SVM, Logistic Regression, Naive Bayes
 ├── GenreGenerator.ipynb                # Movie title and plot generation using LLaMA 3.2
@@ -18,7 +18,7 @@ This project focuses on classifying **movie genres** using machine learning base
 │   ├── svm_genre_prediction_model.pkl
 │   ├── tfidf_vectorizer.pkl
 │   └── label_encoder.pkl
-
+```
 ###  `GenreClassifier_EDA.ipynb`
 - Converts raw `.txt` data to `.csv`.
 - Performs exploratory data analysis (EDA), including:
